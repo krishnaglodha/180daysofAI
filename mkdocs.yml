@@ -1,0 +1,12 @@
+site_name: Learning AI in 180 days
+theme: 
+  name : material
+
+
+nav:
+    - Home: index.md
+    - Day 1 - Getting Started with Pytorch: Day-1.md
+    - Day 2 -  Learning about Tensors  : Day-2.ipynb
+plugins:
+    - mkdocs-jupyter:
+        execute: true
